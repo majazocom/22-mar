@@ -1,0 +1,23 @@
+{
+  "name": "22-mar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majazocom/22-mar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majazocom/22-mar/issues"
+  },
+  "homepage": "https://github.com/majazocom/22-mar#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
