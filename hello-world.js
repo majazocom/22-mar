@@ -36,8 +36,7 @@ readFile.pipe(writeFile);
 
 //Skapa node-server
 http.createServer( (req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write('Listening on port 8080 \n');
-    res.end('Hello World!');
+    console.log(req.url);
+    console.log(req.method);
 }).listen(port);
 
